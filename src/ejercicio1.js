@@ -1,8 +1,10 @@
 let contador = {
   valor: 0,
   siguiente: function () {
-    // Inserte el código aquí
+    this.valor++
+    return (`este numero es ${this.valor}`)
   },
 };
 
-export { contador }
+//export { contador }
+console.log(contador.siguiente());

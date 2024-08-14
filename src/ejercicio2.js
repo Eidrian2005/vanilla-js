@@ -1,7 +1,16 @@
 class Contador {
-  // Inserte el código aquí
+  constructor(valor){
+    this.valor=valor;
+  }
+  mostrarValor(){
+    this.valor++;
+    return (`este valor es ${this.valor}`)
+  }
 }
 
-// Inserte el código aquí
+const miValor = new Contador(0);
 
-export { instancia }
+console.log(miValor.mostrarValor());
+
+
+//export { instancia }
