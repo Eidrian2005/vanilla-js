@@ -13,8 +13,8 @@
 <br />
 <br /> 
 3. Escribir una función llamada sumar.
-   * Debe recibir N parametros (rest operator)
-   * Retorna la suma de todos los parametros
+      * Debe recibir N parametros (rest operator)
+      * Retorna la suma de todos los parametros
 <br />
 <br /> 
 4. Escribir una función llamada saludar.
