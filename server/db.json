@@ -1,0 +1,5 @@
+{
+    "users": [{"nombre": "Eidrian", "apellido": "Si"}],
+
+    "productos": [{"nombre": 392, "cantidad": "atun"}]
+}
